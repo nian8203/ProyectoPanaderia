@@ -50,6 +50,7 @@ public class ctrlPedido implements ActionListener{
             pedido.setTelefono(formPedidos.btnAgregar.getText());
             pedido.setMetodoPago(true);
             pedido.setCantidad(Integer.parseInt(formPedidos.btnAgregar.getText()));
+            pedido.setMetodoPago(formPedidos.btnAgregar.getText());
             
         }
     }
